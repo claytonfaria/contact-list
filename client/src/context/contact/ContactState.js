@@ -28,7 +28,7 @@ const ContactState = (props) => {
   // Get Contacts
   const getContacts = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/api/contacts');
+      const res = await axios.get('/api/contacts');
       dispatch({
         type: GET_CONTACTS,
         payload: res.data,
