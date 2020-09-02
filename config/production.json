@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://claytonfaria:jMRuBjjoxt69EaLr@sandbox.jw11d.mongodb.net/contact-list",
+  "jwtSecret": "Secretehadai4fkds9054390femovrei8"
+}
