@@ -1,6 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
-const morgan = require('morgan');
+// const morgan = require('morgan');
 const path = require('path');
 
 const app = express();
@@ -10,7 +10,7 @@ connectDB();
 
 // Init Middleware
 app.use(express.json({ extended: false }));
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 
 // Server static assets in production
 if (process.env.NODE_ENV === 'production') {
